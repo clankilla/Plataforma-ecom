@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+<f:view>
+	<h:head>
+  		<title><ui:insert name="title">Proyecto (E-com)</ui:insert></title>
+		<h:outputScript library="js" name="categoryFunctions.js" />
+	</h:head>
+	
+	<h:body>
+	
+	<div id="header">
+	    <ui:insert name="header">
+	    	<ui:include src="header.xhtml"></ui:include>
+	    </ui:insert>
+	</div>
+	
+	
+	<div id="content">
+	  <ui:insert name="content">
+	    	Content area.  See comments below this line in the source.
+	  </ui:insert>
+	</div>
+	
+	<div id="footer">
+	  <ui:insert name="footer">
+	    	Footer area.  See comments below this line in the source.
+	  </ui:insert>
+	</div>
+	
+	</h:body>
+</f:view>
+</html>
